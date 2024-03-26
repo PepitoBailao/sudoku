@@ -36,17 +36,6 @@
         return true
     }
 
-    //teste la présence de $un_elt dans la region
-    $ind_ligne_region = intdiv($une_ligne, TAILLE) * TAILLE;
-    $ind_colonne_region = intdiv($une_colonne, TAILLE) * TAILLE;
-    echo "region : <br>"
-    echo "Ligne deb :", $ind_ligne_region. "<br>"
-    echo "Colonne deb :", $ind_colonne_region. "<br>"
-    return true 
-
-    $grille = init_grille();
-    affiche_grille($grille);
-    est_valide($grille, 3, 1, 1);
 
 
 
